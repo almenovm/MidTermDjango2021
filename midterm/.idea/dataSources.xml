@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="middb@127.0.0.1" uuid="2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c">
-      <driver-ref>greenplum</driver-ref>
+    <data-source source="LOCAL" name="newdb@127.0.0.1" uuid="c039fb17-c21a-41ee-a100-d5a336b6a290">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/middb</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/newdb</jdbc-url>
     </data-source>
   </component>
 </project>

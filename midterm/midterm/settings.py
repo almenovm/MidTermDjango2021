@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b4)!e()$hspy1pa*j75ohz*ftl$1_8vfie48wr(dq6(r@_-k_-'
+SECRET_KEY = '!7gze8f_z9!*db80$=i98qj&=o68l4_ii-&^ksg%%frp@*)&-0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'rest_framework_jwt'
+    'rest_framework_jwt',
+    'auth_',
+    'main'
 ]
 
 MIDDLEWARE = [
@@ -78,13 +80,15 @@ WSGI_APPLICATION = 'midterm.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'middb',
+        'NAME': 'newdb',
         'USER': 'demo_user',
         'PASSWORD': '123456789',
         'HOST': 'localhost',
         'PORT': '5432',
     }
 }
+
+AUTH_USER_MODEL = 'auth_.MainUser'
 
 
 # Password validation
@@ -124,7 +128,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (

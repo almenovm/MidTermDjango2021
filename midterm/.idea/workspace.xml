@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98b56643-ecb8-450e-b78f-147a1be2bc9b" name="Default Changelist" comment="" />
+    <list default="true" id="d5439900-1bc4-4626-885a-36231f39a137" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c/storage_v2/_src_/database/middb.xkAxBg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c/storage_v2/_src_/database/middb.xkAxBg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c/storage_v2/_src_/database/middb.xkAxBg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2981ffcc-7244-48d7-a6ab-dfe8d3c10d4c/storage_v2/_src_/database/middb.xkAxBg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midterm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/midterm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/midterm/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,21 +30,72 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="newdb: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="newdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="newdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="newdb@127.0.0.1" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="newdb: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="ProjectId" id="1pzb9OZvREeCYXxjAZhCJw5TYiD" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1q0LQ26OQ21WbPbkuUNw6UF27vC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -43,6 +106,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="midterm.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -66,12 +130,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98b56643-ecb8-450e-b78f-147a1be2bc9b" name="Default Changelist" comment="" />
-      <created>1616188713303</created>
+      <changelist id="d5439900-1bc4-4626-885a-36231f39a137" name="Default Changelist" comment="" />
+      <created>1616211541222</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616188713303</updated>
-      <workItem from="1616188715182" duration="683000" />
+      <updated>1616211541222</updated>
+      <workItem from="1616211544926" duration="6496000" />
     </task>
     <servers />
   </component>
@@ -79,17 +143,60 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="240" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616189400203">
+    <state x="240" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616212241253">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1616189400203" />
-    <state x="427" y="159" key="FileChooserDialogImpl" timestamp="1616188798683">
+    <state x="240" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1616212241253" />
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom" timestamp="1616221422547">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="427" y="159" key="FileChooserDialogImpl/0.0.1280.800@0.0.1280.800" timestamp="1616188798683" />
-    <state x="149" y="36" key="SettingsEditor" timestamp="1616188825388">
+    <state width="1238" height="263" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1616221422547" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center" timestamp="1616221422529">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1616188825388" />
+    <state width="1238" height="263" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1616221422529" />
+    <state width="1238" height="263" key="GridCell.Tab.0.left" timestamp="1616221422527">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1616221422527" />
+    <state width="1238" height="263" key="GridCell.Tab.0.right" timestamp="1616221422541">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1616221422541" />
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom" timestamp="1616221422003">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1616221422003" />
+    <state width="1238" height="263" key="GridCell.Tab.1.center" timestamp="1616221421998">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1616221421998" />
+    <state width="1238" height="263" key="GridCell.Tab.1.left" timestamp="1616221421995">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1616221421995" />
+    <state width="1238" height="263" key="GridCell.Tab.1.right" timestamp="1616221422000">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="263" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1616221422000" />
+    <state x="149" y="36" key="SettingsEditor" timestamp="1616211750006">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1616211750006" />
+    <state x="317" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1616211546779">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="317" y="229" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1616211546779" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
